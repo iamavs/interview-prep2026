@@ -30,6 +30,7 @@ jobs:
           docker push anoopsuvarna/test:${{ github.sha }}
 
   deploy:
+    runs-on: ubuntu-latest
     steps:  
       - name: Deploy to Kubernetes
         uses: appleboy/ssh-action@v1.0.3
