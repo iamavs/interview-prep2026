@@ -1,5 +1,18 @@
 # interview-prep2026
 
+TO INstall K8s
+STEP 5 — Install k3s on EC2
+
+Use:
+k3s Official Docs
+
+Install:
+
+curl -sfL https://get.k3s.io | sh -
+
+Check:
+
+sudo kubectl get nodes
 
  69  clear
    70  git clone https://github.com/iamavs/interview-prep2026.git
