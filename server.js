@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("DevOps Assessment App Running!:v2");
+  res.send("DevOps Assessment App Running!:v22");
 });
 
 app.listen(3000, () => {
